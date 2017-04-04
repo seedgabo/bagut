@@ -40,7 +40,7 @@
         <preference name="CodePushDeploymentKey" value="PLesKgwL1D1XcOzEG1eeaebw-mOqNJcVZfbEf" />
     </platform>
     <platform name="ios">
-        <preference name="CodePushDeploymentKey" value="sauIA1r67Ht_jaGUTkecSr8evLK3NJcVZfbEf" />
+        <preference name="CodePushDeploymentKey" value="EanTd-y2anJ_6rFw_75TyVjLPAKnNJcVZfbEf" />
     </platform>
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />
