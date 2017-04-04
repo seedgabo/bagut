@@ -65,16 +65,11 @@
     <plugin name="phonegap-plugin-push" spec="~1.8.4">
         <variable name="SENDER_ID" value="AIzaSyALZDfIt-NMdTwApoX5a6SwmEYqpMtoKgQ" />
     </plugin>
-    <preference name="xwalkVersion" value="21+" />
-    <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect" />
-    <preference name="xwalkMode" value="embedded" />
-    <preference name="xwalkMultipleApk" value="true" />
     <plugin name="cordova-plugin-inappbrowser" spec="~1.5.0" />
     <plugin name="cordova-plugin-file-opener2" spec="~2.0.2" />
     <plugin name="cordova-plugin-file-transfer" spec="~1.6.0" />
     <plugin name="com.jcesarmobile.filepicker" spec="https://github.com/jcesarmobile/FilePicker-Phonegap-iOS-Plugin.git" />
     <plugin name="com.megster.cordova.FileChooser" spec="http://github.com/don/cordova-filechooser.git" />
-    <plugin name="cordova-plugin-crosswalk-webview" spec="~2.2.0" />
     <icon src="resources\android\icon\drawable-xhdpi-icon.png" />
     <allow-navigation href="http://192.168.80.88:8100" />
     <plugin name="cordova-plugin-code-push" spec="~1.9.3-beta" />
