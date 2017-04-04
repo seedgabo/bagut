@@ -1,0 +1,46 @@
+.logo-header{
+    img{
+        height: 70px;
+        display: inline;
+        margin: 0 auto;
+    }
+    background-image: url(../assets/img/hero.png);
+    background-size: cover;
+}
+
+
+
+.abierto{
+	background-color: rgba(0,0,255,0.5);
+	color:black;
+    font-weight: 500;
+}
+
+.completado{
+	background-color: rgba(0,255,0,0.5);
+	color:black;
+    font-weight: 500;
+}
+
+.vencido{
+	background-color: rgba(255,0,0,0.5);
+	color:black;
+    font-weight: 500;
+}
+
+ion-icon.abierto{
+	background-color: rgba(0,0,255,1);
+	color:white;
+    border-radius: 50%;
+}
+
+ion-icon.completado{
+	background-color: rgba(0,255,0,1);
+	color:white;
+    border-radius: 50%;
+}
+ion-icon.vencido{
+	background-color: rgba(255,0,0,1);
+	color:white;
+    border-radius: 50%;
+}
