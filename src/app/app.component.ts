@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Platform } from 'ionic-angular';
-import { StatusBar, Splashscreen,CodePush,InstallMode, } from 'ionic-native';
+import { StatusBar, Splashscreen,CodePush,InstallMode,UpdateDialogOptions } from 'ionic-native';
 import { TabsPage } from '../pages/tabs/tabs';
 import { Api } from '../providers/api/api';
 import { LoginPage } from '../pages/login/login';
@@ -36,7 +36,7 @@ export class MyApp {
             Splashscreen.hide();
             StatusBar.styleDefault();
             const downloadProgress = (progress) => { console.log(`Downloaded ${progress.receivedBytes} of ${progress.totalBytes}`); }
-            CodePush.sync({ installMode: InstallMode.IMMEDIATE, }, downloadProgress).subscribe(
+            CodePush.sync({ updateDialog:false, installMode: InstallMode.IMMEDIATE, }, downloadProgress).subscribe(
                 (syncStatus) => console.log(syncStatus),
                 (err)=>{console.warn(err)});
         });
