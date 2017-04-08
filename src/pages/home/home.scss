@@ -11,36 +11,27 @@
 
 
 .abierto{
-	background-color: rgba(0,0,255,0.5);
-	color:black;
+	color: rgba(0,0,255,0.5);
     font-weight: 500;
 }
 
 .completado{
-	background-color: rgba(0,255,0,0.5);
-	color:black;
+	color: rgba(0,255,0,0.5);
     font-weight: 500;
 }
 
 .vencido{
-	background-color: rgba(255,0,0,0.5);
-	color:black;
+	color: rgba(255,0,0,0.5);
     font-weight: 500;
 }
 
 ion-icon.abierto{
-	background-color: rgba(0,0,255,1);
-	color:white;
-    border-radius: 50%;
+	color: rgba(0,0,255,1);
 }
 
 ion-icon.completado{
-	background-color: rgba(0,255,0,1);
-	color:white;
-    border-radius: 50%;
+	color: rgba(0,255,0,1);
 }
 ion-icon.vencido{
-	background-color: rgba(255,0,0,1);
-	color:white;
-    border-radius: 50%;
+	color: rgba(255,0,0,1);
 }
