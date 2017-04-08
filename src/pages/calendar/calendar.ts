@@ -14,15 +14,14 @@ export class Calendar {
     ionViewDidEnter(){
         this.initCalendar();
     }
-	
 	reload($refresher){
 		this.api.get('getEventos').then(
-			(data)=>{
-				this.api.user.events = data;
+			(events)=>{
+				this.api.user.events = events;
 				this.api.saveUser(this.api.user);
-				console.log(data);
-				this.calendar.removeEvents();
-				this.calendar.fullCalendar( 'updateEvents', data );
+				console.log(events);
+				this.calendar.fullCalendar("removeEvents");
+				this.calendar.fullCalendar('addEventSource',events);
 				$refresher.complete();
 			}
 		)
